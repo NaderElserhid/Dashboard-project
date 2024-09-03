@@ -28,6 +28,7 @@ export default function Pagination({ totalPages }: { totalPages: number }) {
         <PaginationArrow
           direction="left"
           href={createPageURL(currentPage - 1)}
+          
           isDisabled={currentPage <= 1}
         />
 
